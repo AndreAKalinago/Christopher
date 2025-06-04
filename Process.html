@@ -1,0 +1,75 @@
+<html>
+  
+<head>
+  <style>
+
+  .wrapper {
+  height: 80vh;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+.demo {
+    display: flex;
+    flex-direction: column;
+    gap: 2px; 
+}
+html, body {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: visible; 
+}
+.typing-demo1 {
+  width: 27ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 1.3em;
+}
+.typing-demo2 {
+  width: 19ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 1.3em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+  </style>
+</head>
+  <body>
+    <style>
+    body{
+    background-color: #0f1419 ;
+    color: white ;
+    }
+    </style>
+  </body>
+    
+<body>
+<div class="wrapper">
+    <div class="typing-demo1">
+      NAME : CHRISTOPHER KALINAGO
+    </div>
+    <br>
+    <div class="typing-demo2">
+    CITIZEN : CARIBBEAN
+    </div>
+</div>
+</body>  
+</html>
